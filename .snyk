@@ -1,5 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+patch: {}
 exclude:
-  - "config.json"       # Excludes a file named config.json at the root
-  - "**/config.json"    # Excludes any file named config.json in any directory
-  - "**/*.env"          # Excludes any file with a .env extension
-  - "**/appsettings.json" # Excludes appsettings.json files for a .NET project
+  global:
+    - "config.json"       # Excludes a file named config.json at the root
+    - "**/config.json"    # Excludes any file named config.json in any directory
+    - "**/*.env"          # Excludes any file with a .env extension
+    - "**/appsettings.json" # Excludes appsettings.json files for a .NET project
