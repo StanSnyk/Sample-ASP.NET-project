@@ -4,5 +4,5 @@ ignore: {}
 patch: {}
 exclude:
   global:
-    - '**/*.config'
-    - Sample.Web/**/*
+  - '**/*.config'
+  - Sample.Web/**/*
